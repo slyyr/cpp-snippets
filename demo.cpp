@@ -11,12 +11,12 @@ int sample() {
     char ch = 'a';
     bool b = true;
 
-    cout << "\ninteger = " << i;
-    cout << "\nlong = " << l;
-    cout << "\nfloat = " << f;
-    cout << "\ndouble = " << d;
-    cout << "\nchar = " << ch;
-    cout << "\nbool = " << b;
+    cout << "\ninteger = " << i << "!";
+    cout << "\nlong = " << l << "!";
+    cout << "\nfloat = " << f << "!";
+    cout << "\ndouble = " << d << "!";
+    cout << "\nchar = " << ch << "!";
+    cout << "\nbool = " << b << "!";
 
     return 0;
 }
