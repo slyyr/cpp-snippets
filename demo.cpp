@@ -9,12 +9,12 @@ int main() {
         are like this!!
     */
      // dtype variableName : value
-    int number;
-    number = 10;
+     
+    int number; // variable declaration
+    number = 10; // variable initialisation
+    int secondnumber = 20;
+    int sum = number + secondnumber;
 
-    string name;
-    name = "ezra";
-
-    cout << "hello world!";
+    cout << "total = " << sum;
     return 0;
 }
