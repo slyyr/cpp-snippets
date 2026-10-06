@@ -9,11 +9,11 @@ int main() {
         are like this!!
     */
      // dtype variableName : value
-     
-    int number; // variable declaration
-    number = 10; // variable initialisation
-    int secondnumber = 20;
-    int sum = number + secondnumber;
+
+    int firstNumber; // variable declaration
+    firstNumber = 10; // variable initialisation
+    int secondNumber = 20;
+    int sum = firstNumber + secondNumber; // camelCase and snake_case
 
     cout << "total = " << sum;
     return 0;
