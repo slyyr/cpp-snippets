@@ -22,6 +22,13 @@ int sample() {
     return 0;
 }
 
+int problem() {
+    int a = 15, b = 2;
+    float ans = (float)a/b;
+    cout << "\nanswer = " << ans;
+    return 0;
+}
+
 int main() {
     // single line message
 
@@ -38,5 +45,6 @@ int main() {
 
     cout << "total = " << sum;
     sample();
+    problem();
     return 0;
 }
