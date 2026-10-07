@@ -11,6 +11,7 @@ int sample() {
     char ch = 'a';
     bool b = true;
 
+    cout << "\nbyte = " << sizeof(l) << "!";
     cout << "\ninteger = " << i << "!";
     cout << "\nlong = " << l << "!";
     cout << "\nfloat = " << f << "!";
