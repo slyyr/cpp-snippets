@@ -10,6 +10,7 @@ int main() {
     cout << "\nsubstraction" << "\t" << a-b;
     cout << "\nmultiplication" << "\t" << a*b;
     cout << "\ndivision" << "\t" << a/b;
+    cout << "\nmod" << "\t" << a%b;
     return 0;
 }
 
